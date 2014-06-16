@@ -2,7 +2,7 @@
 ## Team repository of team "Sindragosa" for a project to the course "Web Fundamentals (HTML + CSS)" to SoftUni.
 ## Team members:
 * **[Julie Ivanova](https://github.com/DzIvanova)**
-* **[Stanislava Tropcheva](https://github.com/)**
+* **[Stanislava Tropcheva](https://github.com/StaniTr)**
 * **[Anatoli Asenov](https://github.com/)**
 * **[Daniel Dimitrov](https://github.com/Kaldirion)**
 * **[Darin Georgiev](https://github.com/darinnn)**
