@@ -1,5 +1,4 @@
 # TEAM--SINDRAGOSA-
-===================
 ## Team repository of team "Sindragosa" for a project to the course "Web Fundamentals (HTML + CSS)" to SoftUni.
 ## Team members:
 * **[Julie Ivanova](https://github.com/DzIvanova)**
