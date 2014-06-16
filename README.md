@@ -4,6 +4,6 @@
 * **[Julie Ivanova](https://github.com/DzIvanova)**
 * **[Stanislava Tropcheva](https://github.com/)**
 * **[Anatoli Asenov](https://github.com/)**
-* **[Daniel Dimitrov](https://github.com/)**
-* **[Darin Georgiev](https://github.com/)**
+* **[Daniel Dimitrov](https://github.com/Kaldirion)**
+* **[Darin Georgiev](https://github.com/darinnn)**
 * **[Petar Ivanov](https://github.com/Antoveravip)**
