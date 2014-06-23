@@ -21,7 +21,7 @@ color: #333534;
  
  <body>
 
-<table cellspacing="10" cellpadding="200">
+<table cellspacing="10" cellpadding="10">
 
 <thead>
 <tr>
