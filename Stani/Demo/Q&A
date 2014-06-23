@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <!--bg encoding>
+<meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+ <style>
+ table {
+ background: #b5c5d9;
+ }
+ table td,table th {
+ background: white;
+ }
+ button{
+
+font: 14px/18px "Segoe UI","Segoe WP","Segoe UI Regular","Helvetica Neue",Helvetica,Tahoma,"Arial Unicode MS",sans-serif;
+color: #333534;
+ }
+ </style>
+ </head>
+ 
+ 
+ <body>
+
+<table cellspacing="10" cellpadding="200">
+
+<thead>
+<tr>
+<th colspan=2;>Познай какво е това!</th>
+<th><button id="2" onClick="reply_click(this.id)" >Отговор</button>
+<script type="text/javascript">
+function reply_click()
+{
+   <!-- alert(clicked_id);>
+   alert("Шишенце за парфюм (Perfume-bottle)");
+}
+</script>
+</th>
+</tr>
+</thead>
+
+
+</table>
+ </body>
+ </html>
