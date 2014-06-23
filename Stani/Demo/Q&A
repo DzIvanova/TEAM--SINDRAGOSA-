@@ -4,6 +4,7 @@
  
 <meta http-equiv="content-type" content="text/html; charset=windows-1251" />
  <style>
+ 
  table {
  background: #b5c5d9;
  }
@@ -11,18 +12,16 @@
  background: white;
  }
  button{
-
 font: 14px/18px "Segoe UI","Segoe WP","Segoe UI Regular","Helvetica Neue",Helvetica,Tahoma,"Arial Unicode MS",sans-serif;
 color: #333534;
  }
  </style>
+ 
  </head>
  
  
  <body>
-
 <table cellspacing="10" cellpadding="10">
-
 <thead>
 <tr>
 <th colspan=2;>Познай какво е това!</th>
@@ -44,7 +43,6 @@ function reply_click()
 </td>
 </tr>
 </tbody>
-
 </table>
  </body>
  </html>
