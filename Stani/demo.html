@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <link rel="stylesheet" type="text/css" href="demo.css">
+ <!--Next/Prev pic-->
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var image= new Array();
+image[0]='1.jpg';
+image[1]='2.png';
+image[2]='3.png';
+image[3]='4.png';
+image[4]='5.png';
+image[5]='6.png';
+image[6]='7.png';
+image[7]='8.png';
+image[8]='9.png';
+image[9]='10.png';
+image[10]='11.png';
+image[11]='12.png';
+image[12]='13.png';
+image[13]='14.png';
+image[14]='15.png';
+image[15]='16.jpg';
+image[16]='17.jpg';
+image[17]='18.png';
+image[18]='19.png';
+image[19]='20.png';
+image[20]='21.png';
+image[21]='22.png';
+image[22]='23.jpg';
+image[23]='24.png';
+image[24]='25.png';
+image[25]='26.png';
+image[26]='27.jpg';
+image[27]='28.png';
+image[28]='29.png';
+image[29]='30.png';
+image[30]='31.png';
+image[31]='32.jpg';
+image[32]='33.png';
+image[33]='34.png';
+image[34]='35.png';
+image[35]='36.png';
+image[36]='37.png';
+image[37]='38.png';
+image[38]='39.png';
+var i=0;
+
+function first(){
+   if((i!==0)||(i==0)){
+       i=0;
+       document.getElementById("pictures").src = image[i]
+   }
+  }
+function previous(){
+   if(i>=1){
+      i=i-1;
+      document.getElementById("pictures").src = image[i]
+   }
+  }
+function next(){
+   if((i>=0)&&(i<=image.length-2)){
+      i=i+1;
+      document.getElementById("pictures").src = image[i]
+   }
+  }
+function last(){
+   if(i!=image.length){
+      i=image.length-1;
+      document.getElementById("pictures").src = image[i]
+   }
+  }
+onload=first;
+  
+//]]>
+</script>
+ <!--End of Nex/Prev-->
+<meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+ <img src="logo.png" alt="logo" height="50" weight="100" style="float: right;" usemap="#logomap" />
+ <map name="logomap">
+ <area shape="rect" coords="0,0,100,50" alt="logo" href="home.html">
+ </map>
+ <div style="clear: right">
+</div>    
+<link rel="stylesheet" type="text/css" href="demo.css">
+ </head>
+ 
+ <body>
+ 	<div id="holder">
+ <div id="dvtwo"><img id="pictures" src="" alt=""/></div>
+
+<div id="one">
+<button id="first" onclick="first()"> first</button>
+<button id="previous" onclick="previous()">&lt;&lt;</button> 
+<button id="next" onclick="next()">&gt;&gt;</button> 
+<button id="last" onclick="last()">last</button>
+</div>
+ 
+</nav>
+ </footer>
+ </div>
+  </body>
+ </html>
