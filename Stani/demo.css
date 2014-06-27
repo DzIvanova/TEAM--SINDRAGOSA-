@@ -1,0 +1,36 @@
+/* CSS for demo2 */
+#holder {background-color:#EEEEEE; position: absolute;top: 0;bottom: 0;width:60%;height:95%}
+table img{
+  width:300px;
+  height: 400px;}
+  h1{
+  align: center;
+  }
+  body  { 
+    background-color:#cccccc
+   }
+#pictures  {
+    width:200px;
+    height:200px
+   }
+#dvtwo  { 
+    width:200px; 
+    height:200px; 
+    background:#ffffff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-100px;
+    margin-left:-100px; 
+    border: solid 1px #000000
+   }
+#one  {
+    text-align:center
+   }
+button  { 
+    width:50px;
+    backgrond:#cccccc;
+    font-family:arial;
+    font-size:16px;
+    color:#000000;
+   }
