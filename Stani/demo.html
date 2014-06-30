@@ -2,11 +2,18 @@
  <html>
  <head>
  <link rel="stylesheet" type="text/css" href="demo.css">
+  <meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+
  <!--Next/Prev pic-->
+
 
 
 <script type="text/javascript">
 //<![CDATA[
+var text=new Array();
+text[0]="Otg1";
+text[1]="Otg2";
+text[2]="Otg3";
 
 var image= new Array();
 image[0]='1.jpg';
@@ -53,13 +60,16 @@ var i=0;
 function first(){
    if((i!==0)||(i==0)){
        i=0;
-       document.getElementById("pictures").src = image[i]
+       document.getElementById("pictures").src = image[i];
+	   
+	   
    }
   }
 function previous(){
    if(i>=1){
       i=i-1;
       document.getElementById("pictures").src = image[i]
+	  document.getElementById("texts").innerText = text[i]
    }
   }
 function next(){
@@ -75,23 +85,31 @@ function last(){
    }
   }
 onload=first;
-  
+    function reply_click()
+{
+
+      <!-- alert(clicked_id);>
+   alert(text[i]);
+   }
+   
+
 //]]>
 </script>
  <!--End of Nex/Prev-->
-<meta http-equiv="content-type" content="text/html; charset=windows-1251" />
- <img src="logo.png" alt="logo" height="50" weight="100" style="float: right;" usemap="#logomap" />
- <map name="logomap">
- <area shape="rect" coords="0,0,100,50" alt="logo" href="home.html">
- </map>
- <div style="clear: right">
-</div>    
-<link rel="stylesheet" type="text/css" href="demo.css">
+
+ 
+
+
+
  </head>
  
  <body>
  	<div id="holder">
- <div id="dvtwo"><img id="pictures" src="" alt=""/></div>
+	<img src="logo.png" alt="logo" height="50" weight="100" style="float: right;" usemap="#logomap" />
+ <map name="logomap">
+ <area shape="rect" coords="0,0,100,50" alt="logo" href="home.html">
+ </map>
+ <div id="dvtwo"><img id="pictures" src="" alt=""/><button id="2" onClick="reply_click(this.id)" >Отговор (Answer)</button></div>
 
 <div id="one">
 <button id="first" onclick="first()"> first</button>
@@ -100,7 +118,7 @@ onload=first;
 <button id="last" onclick="last()">last</button>
 </div>
  
-</nav>
+
  </footer>
  </div>
   </body>
