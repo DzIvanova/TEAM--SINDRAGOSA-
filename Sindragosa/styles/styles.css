@@ -3,7 +3,13 @@ Info: CSS for HTML5 and CSS3 Teamwork
 Author: Tean Sindragosa
 Successfully checked as (CSS level 3) in W3C CSS Validator
 */
-
+html, 
+body, 
+.wrapper {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
 body {
 	font-family: Calibri, serif;
 	font-size: 24px;
@@ -11,20 +17,13 @@ body {
 	padding: 0;
 	margin: 0;
 }
-.wrapper header, 
-.wrapper  article, 
-.wrapper  section {
-	width: auto;
-	margin: 0px;
-	padding: 0 0 0 3%;
-}
 
 .wrapper footer {
 	padding: 0 !important;
 } 
  
 header {
-	/*background: #*/ /* Leaved empty for the moment */
+	
 	/*background: #*/ /* Leaved empty for the moment */
 } 
 /* START HEADINGS AND LOGO */
@@ -144,7 +143,10 @@ nav img {
 	padding: 0px;
 	display: block;
 }
- 
+.nav.navbar-nav.navbar-right a {
+    margin: 0;
+    padding: 0;
+}
 /* END NAV MENU */
  
 /* START SEARCH MENU */
@@ -191,6 +193,7 @@ input[type=button], input[type=button]:hover {
 	background-color:#2d3035;
 	color:#505358;
 	width: 200px;
+	float: left;
 }
 button.search-button[type="submit"] {
     -moz-border-bottom-colors: none;
@@ -237,23 +240,23 @@ img {
     display: inline-block;
     width: 90%;
 }
-
-.wrapper section {
-    padding: 10px 30px 30px 50px;
+.main {
+	background: url('../images/bg_top_img.jpg') no-repeat right 0, url('../images/bg_top_left.jpg') repeat-x;
+	/*height: 100%;*/
+	padding: 0 30px 0 50px;
 }
-
 /* START FOOTER */
-
 footer li {
 	display: inline-block;	
 	vertical-align: middle;
 }
 
 footer {
+	clear:both;
 	text-align: center;
 	background: #5d6569;
+	width: 100%;
 }
-
 footer img, 
 footer li img {
 	width: auto;
