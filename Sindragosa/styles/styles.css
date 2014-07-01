@@ -331,5 +331,13 @@ div.inputForm {
     height: 200px;
     width: 350px;
     float: left;
-    background-color: red;
+   
+}
+/*Logo*/
+div.logo {
+    background: url('../images/sindragosa.png');
+    height: 135px;
+    width: 450px;
+    float: left;
+    margin-left: 20px;
 }
