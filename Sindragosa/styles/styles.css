@@ -285,11 +285,6 @@ img {
 	-moz-box-shadow: 12px 12px 5px 0px rgba(0,0,0,0.5);
 	box-shadow: 12px 12px 5px 0px rgba(0,0,0,0.5);
 }
-.main-img{
-	-webkit-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.5);
-	-moz-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.5);
-	box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.5);
-}
 .main-art h3 {
     color: black;
     text-align: center;
@@ -321,6 +316,9 @@ article.spon img {
 	-webkit-box-shadow: inset 5px 5px 5px 0px rgba(0,0,0,0.76);
 	-moz-box-shadow: inset 5px 5px 5px 0px rgba(0,0,0,0.76);
 	box-shadow: inset 5px 5px 5px 0px rgba(0,0,0,0.76);
+}
+.spon h3 {
+    text-align: center;
 }
 /* End Sponsors Page*/
 
