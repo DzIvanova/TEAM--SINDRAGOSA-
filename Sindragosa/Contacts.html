@@ -88,13 +88,147 @@
             </nav>
         </header>
         <section class="contacts">
-           <h1>Контакти с нас</h1>
+           <h2>Ценоразпис на услугите, предоставяни от отдела: </h2>
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover" id="price">
+                    <thead>
+                        <tr>
+                            <td>#</td>
+                            <td>Услуга</td>
+                            <td>Цена</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Отговор на въпрос</td>
+                            <td>2лв.</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Правилен отговор на въпрос</td>
+                            <td>5лв.</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Същото, но в писмена формаОтговор на въпрос</td>
+                            <td>10лв.</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Отговор на глупав въпрос</td>
+                            <td>12лв.</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Вежлив отговор на глупав въпрос</td>
+                            <td>15лв.</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Правилен отговор на глупав въпрос</td>
+                            <td>20лв.</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Вникване в проблема</td>
+                            <td>5лв./час</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Вникване на проблема с посочване на недостатъците</td>
+                            <td>10лв./час</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Вникване на проблема с отстраняване на недостатъците</td>
+                            <td>15лв./час</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Вникване в проблема с искрено съчувствие</td>
+                            <td>Услугата не е активна в момента</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>Съчувствие</td>
+                            <td>10лв.</td>
+
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Искрено съчувствие </td>
+                            <td>20лв.</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>Съвет</td>
+                            <td>5лв.</td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>Правилен съвет</td>
+                            <td>10лв.</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>Изпълним съвет</td>
+                            <td>15лв.</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>Правилен и изпълним съвет</td>
+                            <td>20лв.</td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>Замислен поглед</td>
+                            <td>Безплатно (до понеделник)</td>
+                        </tr>
+                        <tr>
+                            <td>18</td>
+                            <td>Мълчание </td>
+                            <td>1лв./мин.</td>
+                        </tr>
+                        <tr>
+                            <td>19</td>
+                            <td>Вежливо мълчание</td>
+                            <td>2лв./мин.</td>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                            <td>Виновно мълчание</td>
+                            <td>10лв./мин.</td>
+                        </tr>
+                        <tr>
+                            <td>21</td>
+                            <td>Мълчание с радостна усмивка</td>
+                            <td>5лв./мин.</td>
+                        </tr>
+                        <tr>
+                            <td>22</td>
+                            <td>Мълчание с иронична усмивка</td>
+                            <td>10лв./мин.</td>
+                        </tr>
+                        <tr>
+                            <td>23</td>
+                            <td>Мълчание със замислен поглед</td>
+                            <td>5лв./мин.</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+           <h2>Ако все пак решите да се свържете с нас:</h2>
             <form id="contacts" method="get">
                 <div class="inputForm">
                     <input type="text" placeholder="Заглавие" class="contactForm" id="title" />
                     <input type="email" placeholder="e-mail" class="contactForm" id="email" />
                 </div>
-                <textarea placeholder="Съдържание" class="contactTextarea" id="textarea" ></textarea>
+                <div class="submit">
+                    <textarea placeholder="Съдържание" class="contactTextarea" id="textarea"></textarea>
+                    <button class="submit">Изпрати</button>
+                </div>
             </form>
         </section>
         <footer>
