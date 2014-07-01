@@ -31,6 +31,9 @@ h1, h2 {
 	margin: 0;
 	padding: 0;
 }
+h3 {
+	color: #428bca;
+}
 /* END HEADINGS AND LOGO */
 /* START NAV MENU */
 nav {
@@ -256,6 +259,18 @@ article.spon img {
     width: 200px;
 }
 /* End Sponsors Page*/
+/* Start Apply Page*/
+article.apply img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 200px;
+}
+#note {
+	font-style: italic;
+}
+/* End apply Page*/
 /* START FOOTER */
 footer li {
 	display: inline-block;	
