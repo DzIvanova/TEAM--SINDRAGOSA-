@@ -24,7 +24,7 @@ body {
  
 header {
 	padding-bottom: 5px;
-	background: #62c47d;
+	background: #bcbcbc;
 	border-bottom: 1px solid #45ccea;
 } 
 .main {
@@ -167,11 +167,18 @@ nav img {
 	margin-bottom:5px;
 }
 .navbar-default {
-    background-color: #22b1a5;
+    background-color: #7bc144;
     border-color: #036ab5;
 }
 .navbar-nav > li > a {
     line-height: normal;
+   
+}
+.navbar-default .navbar-nav > li > a{
+     color: #2d3035;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #0058a8;
 }
 /* END NAV MENU */
  
@@ -376,7 +383,7 @@ footer {
 	border-top: 1px solid #0058a8 ;
 	clear:both;
 	text-align: center;
-	background: #62c47d;
+	background: #bcbcbc;
 	width: 100%;
 }
 .bottom-nav li {
