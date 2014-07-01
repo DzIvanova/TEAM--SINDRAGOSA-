@@ -225,10 +225,23 @@ input[type=button], input[type=button]:hover {
 }
 .search-menu input[type=text]{
 	border:1px solid #2a2e31;
-	background-color:#2d3035;
-	color:#505358;
+	background-color:#619a7a;
+	color:#000000;
 	width: 200px;
 	float: left;
+}
+
+.search::-webkit-input-placeholder {
+	color: white;
+}
+.search:-moz-placeholder {
+	color: white;
+}
+.search::-moz-placeholder {
+	color: white;
+}
+.search:-ms-input-placeholder {
+	color: white;
 }
 button.search-button[type="submit"] {
     -moz-border-bottom-colors: none;
@@ -321,7 +334,23 @@ article.spon img {
     text-align: center;
 }
 /* End Sponsors Page*/
-
+/* Start Jobs Page*/
+.jobs-page {
+    background: none repeat scroll 0 0 #619a7a;
+    border-radius: 20px;
+    margin: 10px;
+}
+.jobs-page article img {
+    margin: 10px;
+}
+.jobs > h1 {
+    background: none repeat scroll 0 0 #619a7a;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+/* End Jobs Page*/
 /* Start Apply Page*/
 article.apply img {
     display: block;
@@ -337,32 +366,32 @@ article.apply img {
 
 /*START CONTACTS PAGE*/
 section.contacts{
-    min-height: 500px;
+    /*min-height: 500px;*/
 
 }
 .contactForm {
     font-size: 1em;
     color: rgb( 40, 44, 47 );
-    float: left;
-    margin-left: 25px;
+    /*float: left;
+    margin-left: 25px;*/
     margin-top: 10px;
     padding: 5px;
     height: 40px;
-    width: 300px;
+    width: 100%;
     border-radius: 10px;
     display: block;
     display: table-cell;
     vertical-align:central;
 }
 div.inputForm {
-    height: 100px;
-    width: 350px;
-    float: left;
+    /*height: 100px;*/
+    /*width: 350px;*/
+    /*float: left;*/
    
    
 }
 div.submit {
-    float: left;
+   /* float: left;*/
     width: 700px;
 }
 .contactTextarea{
@@ -389,8 +418,14 @@ button.submit {
     
 }
 div.priceTable {
-    width: 75%;
-    margin: 15px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+.contacts h2 {
+    background: none repeat scroll 0 0 #c4c4c4;
+    border-radius: 5px;
+    margin: 15px;
+	text-align: center;
 }
 /*Logo*/
 /*div.logo {
