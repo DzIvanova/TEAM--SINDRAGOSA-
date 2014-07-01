@@ -267,7 +267,7 @@ article img {
 img {
 	padding: 10px;
 }
-
+/* Start Main Page */
 .main {
 	background: url('../images/bg_top_img.jpg') no-repeat right 0, url('../images/bg_top_left.jpg') repeat-x, url('../images/bg_bottom.jpg') repeat-y right 0, #0058a8;
 	border-bottom: 1px solid #000000 ;
@@ -282,9 +282,7 @@ img {
 	padding: 2%;
 	margin-bottom: 10px;
 }
-#contact-info {
-	font-size: 0.67em;
-}
+/* End Main Page */
 /* Start Sponsors Page*/
 article.spon img {
     display: block;
@@ -292,6 +290,25 @@ article.spon img {
     margin-right: auto;
     padding: 10px;
     width: 200px;
+}
+.sponsors > h2 {
+    background: none repeat scroll 0 0 #a5b2af;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+.sponsors > .container-fluid {
+    background: none repeat scroll 0 0 #a5b2af;
+    border-radius: 20px;
+    margin: 5px;
+}
+.sponsors article {
+    background: none repeat scroll 0 0 #eeeeee;
+    border-radius: 20px;
+    margin: 15px 0;
+	-webkit-box-shadow: inset 5px 5px 5px 0px rgba(0,0,0,0.76);
+	-moz-box-shadow: inset 5px 5px 5px 0px rgba(0,0,0,0.76);
+	box-shadow: inset 5px 5px 5px 0px rgba(0,0,0,0.76);
 }
 /* End Sponsors Page*/
 
@@ -444,6 +461,9 @@ footer ul li a:hover
 }
 #sec-footer .col-md-3:first-of-type h2 {
     font-size: 1.8em;
+}
+#contact-info {
+	font-size: 0.67em;
 }
 /*.footer-info img:hover {
 	height: 31px;
