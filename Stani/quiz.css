@@ -1,0 +1,55 @@
+/* CSS for demo2 */
+
+#holder {background-color:#78BAC6; position: absolute;top: 0;bottom: 0;width:100%;height:95%; }
+table img{
+  width:200px;
+  height: 200px;}
+  h1{
+  align: center;
+  }
+  body  { 
+    background-color:#cccccc
+   }
+#pictures  {
+    width:400px;
+    height:400px;
+	box-shadow: 10px 10px 5px #888888;
+	outline-style:dotted;
+   }
+#dvtwo  { 
+    width:400px; 
+    height:400px; 
+    background:#ffffff;
+    position:absolute;
+    top:60%;
+    left:39%;
+    margin-top:-100px;
+    margin-left:-100px; 
+    border: solid 1px #000000
+   }
+#one  {
+    text-align:center
+   position: absolute;
+    height: 200px;
+    width: 600px;
+    margin: 10px 0 0 420px;
+    top: 0%;
+    left: 10%;
+   }
+   #Answer { 
+    width:405px !important;
+    background:#5D6569;
+    font-family:arial;
+    font-size:16px;
+    color:#000000;
+   }
+button  { 
+    width:100px;
+    background:#5D6569;
+    font-family:arial;
+    font-size:16px;
+    color:#000000;
+   }
+
+
+
