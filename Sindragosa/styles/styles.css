@@ -245,6 +245,17 @@ img {
 	/*height: 100%;*/
 	padding: 0 30px 0 50px;
 }
+
+
+/* Start Sponsors Page*/
+article.spon img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 200px;
+}
+/* End Sponsors Page*/
 /* START FOOTER */
 footer li {
 	display: inline-block;	
