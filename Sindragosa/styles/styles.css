@@ -23,20 +23,33 @@ body {
 } 
  
 header {
-	
-	/*background: #*/ /* Leaved empty for the moment */
+	padding-bottom: 5px;
+	background: #62c47d;
+	border-bottom: 1px solid #45ccea;
 } 
+.main {
+	border-top: 1px solid #62c47d;
+}
 /* START HEADINGS AND LOGO */
 h1, h2 {
 	margin: 0;
 	padding: 0;
 }
-h3 {
-	color: #428bca;
+/*div.logo {
+    background: url('../images/sindragosa.png');
+    height: 135px;
+    width: 450px;
+    margin-left: 20px;
+}*/
+.logo img {
+    padding: 0;
+	width: 100%;
+	height: auto;
+	max-width: 450px;
 }
 /* END HEADINGS AND LOGO */
 /* START NAV MENU */
-nav {
+/*nav {
   background-color: #5d6569;
   border: 1px solid #dedede;
   border-radius: 5px;
@@ -48,12 +61,12 @@ nav {
   width: 95%; 
 }
 
-nav ul {
+nav div div ul {
 	margin: 0;
 	padding: 0;
 }
 
-nav ul li {
+nav  div div ul li {
   display: inline-block;
   vertical-align: middle;
   list-style-type: none;  
@@ -64,7 +77,7 @@ nav ul li {
 	transition: all 0.2s; 
 }
   
-nav > ul > li > a > .arrow {
+nav  div div > ul > li > a > .arrow {
 	margin-left: 5px;
 	border-top: 5px solid #aaa;
 	border-right: 5px solid transparent;
@@ -80,7 +93,7 @@ nav > ul > li > a > .arrow {
 	  transition: color 0.1s linear; 
 }
 
-nav > ul > li > a {
+nav  div div > ul > li > a {
 	color: #aaa;
 	display: block;
 	line-height: 56px;
@@ -88,21 +101,21 @@ nav > ul > li > a {
 	text-decoration: none;
 }
 
-nav > ul > li:hover,
+nav  div div > ul > li:hover,
 .active  {
 	background-color: rgb( 40, 44, 47 );
 }
 
-nav > ul > li:hover > a {
+nav  div div > ul > li:hover > a {
 	color: rgb( 255, 255, 255 );
 }
 
-nav > ul > li:hover > a > .arrow {
+nav  div div > ul > li:hover > a > .arrow {
 	margin-left: 5px;
 	border-top-color: rgb( 255, 255, 255 );
 }
 
-nav > ul > li > ul {
+nav  div div > ul > li > ul {
 	background-color: rgb( 40, 44, 47 );
 	border-top: 0;
 	border-radius: 0 0 5px 5px;
@@ -121,41 +134,47 @@ nav > ul > li > ul {
 	-transition: opacity 0.2s;
 }
 
-nav > ul > li:hover > ul {
+nav  div div > ul > li:hover > ul {
 	display: block;
 	opacity: 1;
 	visibility: visible;
 }
 
-nav > ul > li > ul > li {
+nav  div div > ul > li > ul > li {
 	display: block;
 }
 
-nav > ul > li > ul > li > a {
+nav  div div > ul > li > ul > li > a {
 	color: #fff;
 	display: block;
 	padding: 12px 24px;
 	text-decoration: none;
 }
 
-nav > ul > li > ul > li:hover > a {
+nav  div div > ul > li > ul > li:hover > a {
 	background-color: rgba( 255, 255, 255, 0.1);
 }
 
 nav img {
 	padding: 0px;
 	display: block;
-}
+}*/
 .nav.navbar-nav.navbar-right a {
     margin: 0;
     padding: 0;
 }
-/* END NAV MENU */
-/*START SECTION*/
-section {
-    padding: 0 2%;
+.navbar {
+	margin-bottom:5px;
 }
-/* END SECTION*/
+.navbar-default {
+    background-color: #22b1a5;
+    border-color: #036ab5;
+}
+.navbar-nav > li > a {
+    line-height: normal;
+}
+/* END NAV MENU */
+ 
 /* START SEARCH MENU */
  form{
 	width:100%;
@@ -225,7 +244,9 @@ h2 a {
 	text-decoration: none;
 	color: green;
 } 
- 
+h3 {
+	color: #428bca;
+}
 article img {
 	display: block;
     margin-left: auto;
@@ -235,24 +256,21 @@ article img {
 img {
 	padding: 10px;
 }
-.task-descr > div {
-    text-align: center;
-}
 
-.task-descr > div p {
-    text-align: left;
-}
-
-.tag-descr {
-    display: inline-block;
-    width: 90%;
-}
 .main {
-	background: url('../images/bg_top_img.jpg') no-repeat right 0, url('../images/bg_top_left.jpg') repeat-x;
-	/*height: 100%;*/
+	background: url('../images/bg_top_img.jpg') no-repeat right 0, url('../images/bg_top_left.jpg') repeat-x, url('../images/bg_bottom.jpg') repeat-y right 0, #0058a8;
+	border-bottom: 1px solid #000000 ;
 	padding: 0 30px 0 50px;
 }
-
+.main-art {
+	border: 1px solid green;
+	border-radius: 5px;
+	background: none repeat scroll 0 0 rgba(85, 202, 137, 0.5);
+    border: 1px solid green;
+    border-radius: 5px;
+	padding: 2%;
+	margin-bottom: 10px;
+}
 
 /* Start Sponsors Page*/
 article.spon img {
@@ -263,6 +281,7 @@ article.spon img {
     width: 200px;
 }
 /* End Sponsors Page*/
+
 /* Start Apply Page*/
 article.apply img {
     display: block;
@@ -275,62 +294,7 @@ article.apply img {
 	font-style: italic;
 }
 /* End apply Page*/
-/* START FOOTER */
-footer li {
-	display: inline-block;	
-	vertical-align: middle;
-}
 
-footer {
-	clear:both;
-	text-align: center;
-	background: #5d6569;
-	width: 100%;
-}
-footer img, 
-footer li img {
-	width: auto;
-	height: 31px;
-	padding: 10px 5px;
-}
-
-footer ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	text-align: center;
-}
-
-footer ul li { 
-	display: inline-block;
-}
-
-footer ul li a {
-	text-decoration: none;
-	color: #000;
-}
-
-footer ul li a:hover
-{
-	color: rgb(181, 187, 191);
-	background-color: rgb(93, 101, 105);
-	text-shadow: rgb(224, 224, 224) 1px 1px 0px;	
-}
-
-footer ul li img:hover
-{
-	height: 41px;
-	padding: 5px 0px;
-}
-
-.footer-info img:hover
-{
-	height: 31px;
-	border: 1px solid black;
-	margin: 9px 4px;
-	padding: 0px 0px;
-}
-/* END FOOTER */
 /*START CONTACTS PAGE*/
 section.contacts{
     min-height: 500px;
@@ -389,9 +353,86 @@ div.priceTable {
     margin: 15px 0;
 }
 /*Logo*/
-div.logo {
+/*div.logo {
     background: url('../images/sindragosa.png');
     height: 135px;
     width: 450px;
     margin-left: 20px;
+}*/
+
+/* START FOOTER */
+footer li {
+	display: inline-block;	
+	vertical-align: middle;
 }
+
+footer {
+	border-top: 1px solid #0058a8 ;
+	clear:both;
+	text-align: center;
+	background: #62c47d;
+	width: 100%;
+}
+.bottom-nav li {
+    display: block;
+}
+/*footer img, 
+footer li img {
+	width: auto;
+	height: 31px;
+	padding: 5px 5px;
+}*/
+
+footer ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+footer ul li { 
+	display: inline-block;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: #000;
+}
+
+footer ul li a:hover
+{
+	color: rgb(181, 187, 191);
+	/*background-color: rgb(93, 101, 105);*/
+	text-shadow: rgb(224, 224, 224) 1px 1px 0px;	
+}
+
+/*footer ul li img:hover
+{
+	height: 41px;
+	padding: 0px 0px;
+	margin:0;
+	width: auto;
+}*/
+.follow-us img {
+	width: auto;
+	height: 31px;
+	padding: 5px 5px;
+}
+/*.follow-us img:hover {
+	height: 41px;
+	padding: 0px 0px;
+	margin:0;
+	width: auto;
+}*/
+.footer-info img {
+	width: auto;
+	height: 31px;
+	padding: 5px 5px;
+}
+/*.footer-info img:hover {
+	height: 31px;
+	border: 1px solid black;
+	margin: 9px 4px;
+	padding: 0px 0px;
+}*/
+/* END FOOTER */
