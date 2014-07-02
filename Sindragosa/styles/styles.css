@@ -34,6 +34,7 @@ header {
 h1, h2 {
 	margin: 0;
 	padding: 0;
+    text-align: center;
 }
 /*div.logo {
     background: url('../images/sindragosa.png');
