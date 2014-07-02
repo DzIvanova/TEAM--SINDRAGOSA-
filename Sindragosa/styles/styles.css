@@ -419,6 +419,35 @@ article.spon img {
 	height: auto;
 }
 /* End Under Contruction Page*/
+/* Start Professions Page*/
+article.prof img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 200px;
+}
+.professions > h2 {
+    background: none repeat scroll 0 0 #a5b2af;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+.professions > .container-fluid {
+    background: none repeat scroll 0 0 #a5b2af;
+    border-radius: 20px;
+    margin: 5px;
+}
+.professions article {
+    background: none repeat scroll 0 0 #eeeeee;
+    border-radius: 20px;
+    margin: 15px 0;
+	border: 1px solid black;
+}
+.prof h3 {
+    text-align: center;
+}
+/* End Professions Page*/
 /* Start High League Teachers Page*/
 article.teach img {
     display: block;
