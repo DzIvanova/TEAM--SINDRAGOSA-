@@ -42,24 +42,24 @@
 						<ul class="nav navbar-nav">
 							<li><a href="index.html">Прием</a></li>
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">За университета <span class="caret"></span></a>
-								<ul class="dropdown-menu" role="menu">
-									<li><a href="#">Преподаватели</a></li>
+								<a href="about-university.html" class="dropdown-toggle" data-toggle="dropdown">За университета <span class="caret"></span></a>
+								<ul class="dropdown-menu multi-level" role="menu">
+									<li class="dropdown-submenu">
+										<a href="lectors.html" tabindex="-1">Преподаватели</a>
+										<ul class="dropdown-menu" role="menu">
+											<li><a tabindex="-1" href="high-league.html">Висш състав</a></li>
+											<li class="dropdown-submenu"><a href="current-lectors.html">Текущи преподаватели</a>
+												<ul class="dropdown-menu">
+													<li><a href="usual-suspects.html">Основните заподозрени</a></li>
+													<li><a href="unusual-teachers.html">Необичайните учители</a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
 									<li><a href="apply.html">Кандидатстване</a></li>
 								</ul>
 							</li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Обучения <span class="caret"></span></a>
-								<ul class="dropdown-menu" role="menu">
-									<li><a href="#">Sub page 1</a></li>
-									<li><a href="#">Sub page 2</a></li>
-									<li><a href="#">Sub page 3</a></li>
-									<li class="divider"></li>
-									<li><a href="#">Sub page 4</a></li>
-									<li class="divider"></li>
-									<li><a href="#">Sub page 5</a></li>
-								</ul>
-							</li>
+							<li><a href="educations.html" >Обучения</a></li>
 							<li class="active"><a href="sponsors.html">Спонсори</a></li>
 							<li><a href="jobs.html">Работа</a></li>
 							<li><a href="contacts.html">Контакти</a></li>	
@@ -85,7 +85,7 @@
 					<h3><a href="http://w2.vatican.va/content/vatican/it.html" target="_blank" title="Ватикана">Ватикана</a></h3>
 					<div class="col-md-2">
 						<a href="http://w2.vatican.va/content/vatican/it.html" target="_blank">
-							<img src="images/sponsors/vatican.svg" alt="Лого на Ватикана" title="Ватикана" /></a>
+							<img src="images/sponsors/vatican.svg" class="img-responsive" alt="Лого на Ватикана" title="Ватикана" /></a>
 					</div>
 					<div class="col-md-10">
 						<p>Голяма част от най-добрите ни студенти по бази данни, логически схеми, разчитане на стари ръкописи и с много други таланти са привлечени на работа в Тайните архиви на Ватиката.</p>
@@ -97,7 +97,7 @@
 					<h3><a href="https://www.cia.gov/index.html" target="_blank" title="ЦРУ">ЦРУ</a></h3>
 					<div class="col-md-2">
 						<a href="https://www.cia.gov/index.html" target="_blank">
-							<img src="images/sponsors/CIA.png" alt="Лого на ЦРУ" title="ЦРУ" /></a>
+							<img src="images/sponsors/CIA.png" class="img-responsive" alt="Лого на ЦРУ" title="ЦРУ" /></a>
 					</div>
 					<div class="col-md-10">
 						<p>Най-добрите ни студенти по криптография, мрежи, сървъри, както и почти всички сфери и много други таланти са привлечени на работа от тази агенция.</p>
@@ -109,7 +109,7 @@
 					<h3><a href="http://www.nasa.gov/" target="_blank" title="НАСА">НАСА</a></h3>
 					<div class="col-md-2">
 						<a href="http://www.nasa.gov/" target="_blank">
-							<img src="images/sponsors/NASA.png" alt="Лого на НАСА" title="НАСА" /></a>
+							<img src="images/sponsors/NASA.png" class="img-responsive" alt="Лого на НАСА" title="НАСА" /></a>
 					</div>
 					<div class="col-md-10">
 						<p>При тях намират работа много от физико-летящите мозъци от нашият университет.</p>
@@ -121,7 +121,7 @@
 					<h3><a href="https://softuni.bg/" target="_blank" title="СофтУни">СофтУни</a></h3>
 					<div class="col-md-2">
 						<a href="https://softuni.bg/" target="_blank">
-							<img src="images/sponsors/soft-uni-logo.png" alt="Лого на СофтУни" title="СофтУни" /></a>
+							<img src="images/sponsors/soft-uni-logo.png" class="img-responsive" alt="Лого на СофтУни" title="СофтУни" /></a>
 					</div>
 					<div class="col-md-10">
 						<p>Някои от студентите ни преценяват, че могат и искат да преподават и отиват в някои от най-престижните университети.</p>
@@ -152,7 +152,7 @@
 			 <section class="col-md-3">
 				<h1>Станици:</h1>
 			 	<ul class="bottom-nav">
-					<li class="active"><a href="index.html">Прием</a></li>
+					<li><a href="index.html">Прием</a></li>
 					<li><a href="#">За университета</a></li>
 					<li><a href="sponsors.html">Спонсори</a></li>
 					<li><a href="jobs.html">Работа</a></li>

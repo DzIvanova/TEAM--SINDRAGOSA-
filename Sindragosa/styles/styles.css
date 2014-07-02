@@ -180,6 +180,80 @@ nav img {
 .navbar-default .navbar-nav > li > a:hover {
     color: #0058a8;
 }
+.dropdown-menu {
+    background: none repeat scroll 0 0 #439691;
+    font-size: 1em;
+    width: auto;
+}
+.dropdown-menu > li {
+    border-bottom: 1px solid black;
+}
+.navbar-default .navbar-nav > .active > a,
+.dropdown.open {
+	background: #3fb1aa;
+}
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus  {
+	background: #619a7a;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	background: #619a7a;
+}
+
+/* Start Submenu css */
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: 0px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu > .dropdown-menu{
+	width: auto;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    border-color: transparent transparent transparent #000;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    content: " ";
+    display: block;
+    float: right;
+    height: 0;
+    margin-right: -15px;
+    margin-top: 13px;
+    width: 0;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #000;
+}
+.dropdown-submenu.pull-left {
+    float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+/* End Submenu css */
+/*.navbar-nav > li.active {
+	background: #3fb1aa;
+}*/
 /* END NAV MENU */
  
 /* START SEARCH MENU */
@@ -334,6 +408,37 @@ article.spon img {
     text-align: center;
 }
 /* End Sponsors Page*/
+/* Start Under Contruction Page*/
+.under-construction {
+	background:url('../images/under-construction.gif') no-repeat center center black;
+	/*background-repeat:repeat;*/
+}
+.under-construction-2 {
+	background:url('../images/under_construction.jpg') no-repeat center center black;
+	width: 100%;
+	height: auto;
+}
+/* End Under Contruction Page*/
+/* Start High League Teachers Page*/
+article.teach img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 400px;
+}
+.teach h3, 
+.teach-2 h3 {
+    text-align: center;
+}
+article.teach-2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 300px;
+}
+/* End High League Teachers Page*/
 /* Start Jobs Page*/
 .jobs-page {
     background: none repeat scroll 0 0 #619a7a;
