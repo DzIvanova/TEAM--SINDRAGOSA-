@@ -395,6 +395,7 @@ article.spon img {
     background: none repeat scroll 0 0 #a5b2af;
     border-radius: 20px;
     margin: 5px;
+    display: inline-block;
 }
 .sponsors article {
     background: none repeat scroll 0 0 #eeeeee;
@@ -493,6 +494,9 @@ article.apply img {
     padding: 10px;
     width: 200px;
 }
+.apply > h2 {
+    text-align: center;
+}
 #note {
 	font-style: italic;
 }
@@ -561,6 +565,41 @@ div.priceTable {
     margin: 15px;
 	text-align: center;
 }
+.btn-default {
+    -moz-box-shadow:inset 0px 0px 0px 0px #dcecfb;
+    -webkit-box-shadow:inset 0px 0px 0px 0px #dcecfb;
+    box-shadow:inset 0px 0px 0px 0px #dcecfb;
+    background-color:#7bc144;
+    -webkit-border-top-left-radius:15px;
+    -moz-border-radius-topleft:15px;
+    border-top-left-radius:15px;
+    -webkit-border-top-right-radius:15px;
+    -moz-border-radius-topright:15px;
+    border-top-right-radius:15px;
+    -webkit-border-bottom-right-radius:15px;
+    -moz-border-radius-bottomright:15px;
+    border-bottom-right-radius:15px;
+    -webkit-border-bottom-left-radius:15px;
+    -moz-border-radius-bottomleft:15px;
+    border-bottom-left-radius:15px;
+    text-indent:0;
+    border:1px solid #208a4e;
+    display:inline-block;
+    color:#2a2e31;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px -1px 5px #797f85;
+}.btn-default:hover {
+    background-color:#619a7a;
+}.btn-default:active {
+    position:relative;
+    top:1px;
+}
 /*Logo*/
 /*div.logo {
     background: url('../images/sindragosa.png');
@@ -579,7 +618,7 @@ footer {
 	border-top: 1px solid #0058a8 ;
 	clear:both;
 	text-align: center;
-	background: #bcbcbc;
+	background: #7bc144;
 	width: 100%;
 }
 .bottom-nav li {
@@ -639,7 +678,8 @@ footer ul li a:hover
     font-size: 2.2em;
 }
 #sec-footer .col-md-3:first-of-type h2 {
-    font-size: 1.8em;
+    font-size: 1.2em;
+    color: #428bca;
 }
 #contact-info {
 	font-size: 0.67em;
